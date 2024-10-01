@@ -1,0 +1,90 @@
+/* Configuração do fundo da página */
+body {
+  background-image: url("img/pexels-francesco-ungaro-998641.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  color: aliceblue;
+  border-bottom: 2px solid rgb(19, 218, 208);
+}
+
+/* Centralização do formulário */
+.form-container {
+  background-color: rgba(112, 112, 109, 0.541);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+}
+
+/* Estilos básicos do formulário */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-weight: bold;
+  color: rgb(224, 221, 221);
+  margin-bottom: 2px;
+}
+
+input {
+  margin-bottom: 2px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+span {
+  color: aqua;
+  font-size: 1.4rem;
+}
+
+.checkbox_genero div {
+  display: flex;
+  align-items: center; /* Alinha checkbox e label verticalmente no centro */
+  margin-bottom: 10px; /* Espaçamento entre os itens */
+}
+.checkbox_genero {
+  display: flex;
+  flex-direction: column;
+}
+
+.checkbox_genero input[type="checkbox"] {
+  margin-right: 8px; /* Espaçamento entre checkbox e rótulo */
+}
+
+.checkbox_genero span {
+  color: cyan; /* Mantém a cor da palavra Gênero */
+  margin-bottom: 10px; /* Espaço abaixo do título */
+  font-weight: bold;
+}
+
+.resumo p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+.resumo li {
+  color: cadetblue;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}

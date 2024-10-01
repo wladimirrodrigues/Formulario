@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Formulário</title>
+</head>
+
+<body>
+  <div class="form-container">
+    <h1>Formulário de Cadastro</h1>
+    <form action="#" method="post">
+      <!-- Campo Nome -->
+      <label for="nome">Nome:</label><br>
+      <input type="text" id="nome" required><br><br>
+
+      <!-- Campo Sobrenome -->
+      <label for="sobrenome">Sobrenome:</label><br>
+      <input type="text" id="sobrenome" required><br><br>
+
+      <!-- Campo Email -->
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" placeholder="wlad@gmail.com" required><br><br>
+
+      <!-- Campo Senha -->
+      <label for="senha">Senha:</label><br>
+      <input type="password" id="senha" placeholder="*******" required><br><br>
+
+      <!-- Campo Data -->
+      <label for="data">Data:</label><br>
+      <input type="date" id="data" required><br><br>
+
+      <!-- Campo Gênero -->
+      <div class="checkbox_genero">
+        <span>Gênero:</span><br>
+        <div>
+          <input type="checkbox" id="masculino">
+          <label for="masculino">Masculino</label>
+        </div>
+        <div>
+          <input type="checkbox" id="feminino">
+          <label for="feminino">Feminino</label>
+        </div>
+        <div>
+          <input type="checkbox" id="outros">
+          <label for="outros">Outros</label>
+        </div>
+      </div>
+
+      <br>
+
+      <!-- Explicação sobre o Fomumario -->
+      <div class="resumo">
+        <p>Propósito do cadastro</p>
+        <ul>
+          <li>Conhecer melhor o usuário</li>
+          <li>Segurança de dados</li>
+          <li>Facilidade na comunicação </li>
+        </ul>
+      </div>
+      <br>
+
+      <!-- Botão Cadastrar -->
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
+</body>
+
+</html>
